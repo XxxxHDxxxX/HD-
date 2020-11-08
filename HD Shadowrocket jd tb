@@ -1,4 +1,4 @@
-# Shadowrocket: 2020-11-08 
+# Shadowrocket: 2020-11-09
 # 作者 HD & 33
 [General]
 bypass-system = true
@@ -29,6 +29,8 @@ FINAL,PROXY
 
 
 [Script]
+百度贴吧Cookie = type=http-request,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js,pattern=https?:\/\/c\.tieba\.baidu\.com\/c\/s\/login,max-size=131072,timeout=10,enable=true
+百度贴吧 = type=cron,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/BDTieBa-DailyBonus/TieBa.js,cronexpr="1 0 * * *",timeout=10,enable=true
 梨涡签到 = type=cron,script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/7days.js,cronexpr="7 0 * * *",timeout=10,enable=true
 梨涡Cookie = type=http-request,script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/7dayscookie.js,pattern=https:\/\/api\.m\.jd\.com\/api\/v1\/sign\/doSign,max-size=131072,timeout=10,enable=true
 淘宝比价2 Lite(通知版) = type=http-response,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price_lite.js,pattern=^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail,max-size=131072,requires-body=true,timeout=10,enable=true
