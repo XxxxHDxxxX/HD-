@@ -1,5 +1,5 @@
-# Shadowrocket: 2020-11-8 
-#作者HD&33
+# Shadowrocket: 2020-11-08 
+# 作者 HD & 33
 [General]
 bypass-system = true
 dns-server = system, 119.29.29.29, 114.114.114.114, 223.5.5.5, 1.2.4.8
@@ -29,6 +29,8 @@ FINAL,PROXY
 
 
 [Script]
+梨涡签到 = type=cron,script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/7days.js,cronexpr="7 0 * * *",timeout=10,enable=true
+梨涡Cookie = type=http-request,script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/7dayscookie.js,pattern=https:\/\/api\.m\.jd\.com\/api\/v1\/sign\/doSign,max-size=131072,timeout=10,enable=true
 淘宝比价2 Lite(通知版) = type=http-response,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price_lite.js,pattern=^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail,max-size=131072,requires-body=true,timeout=10,enable=true
 淘宝比价1 Lite(通知版) = type=http-request,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price_lite.js,pattern=^http://.+/amdc/mobileDispatch,max-size=131072,requires-body=true,timeout=10,enable=true
 BoxJs = type=http-request,script-path=https://gitee.com/chavyleung/scripts/raw/master/chavy.box.js,pattern=^https?://boxjs.com,max-size=131072,timeout=120,enable=true
@@ -72,6 +74,7 @@ BoxJs = type=http-request,script-path=https://gitee.com/chavyleung/scripts/raw/m
 快手极速版签到 = type=cron,cronexpr="35 5 0 * * *",script-path=https://raw.githubusercontent.com/Sunert/Scripts/master/Task/kuaishou.js
 Bilibili获取Cookie = type=http-request,pattern=^https:\/\/(www|live)\.bilibili\.com\/?.?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.cookie.js,enable=true
 Bilibili签到 = type=cron,cronexpr="10 0 0 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js, enable=true
+Bilibili开启1080P+ = type=http-response,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/bilifj.js,pattern=^https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)),max-size=131072,timeout=10,enable=true
 
 [MITM]
 ca-passphrase = Shadowrocket
