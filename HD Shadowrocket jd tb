@@ -49,6 +49,7 @@ FINAL,PROXY
 
 [URL Rewrite]
 ^http://(www.)?google.cn https://www.google.com 302
+^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?uid\=\d+ http://musicpay.kuwo.cn/music.pay?uid=1 302
 
 
 [Script]
@@ -103,8 +104,7 @@ BoxJs = type=http-request,script-path=https://gitee.com/chavyleung/scripts/raw/m
 Bilibili获取Cookie = type=http-request,pattern=^https:\/\/(www|live)\.bilibili\.com\/?.?,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.cookie.js,enable=true
 Bilibili签到 = type=cron,cronexpr="10 0 0 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/bilibili/bilibili.js, enable=true
 Bilibili开启1080P+ = type=http-response,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/bilifj.js,pattern=^https:\/\/ap(p|i)\.bilibili\.com\/((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)),max-size=131072,timeout=10,enable=true
-酷我音乐SVIP(1) = type=http-response,script-path=http://musicpay.kuwo.cn/music.pay?uid=1,pattern=^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?uid\=\d+,max-size=131072,timeout=10,enable=true
-酷我音乐SVIP (2) = type=http-request,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Kuwo.js,pattern=^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice),max-size=131072,timeout=10,enable=true
+酷我音乐SVIP = type=http-response,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Kuwo.js,pattern=^https?:\/\/vip1\.kuwo\.cn\/(vip\/v2\/user\/vip|vip\/spi/mservice),max-size=131072,requires-body=true,timeout=10,enable=true
 
 [MITM]
 ca-passphrase = Shadowrocket
