@@ -331,7 +331,7 @@ BoxJs = type=http-request,script-path=https://gitee.com/chavyleung/scripts/raw/m
 宠汪汪喂食 = type=cron,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_feedPets.js,cronexpr="0 0 */2 * * *",timeout=20,enable=true
 宠汪汪积分兑换奖品 = type=cron,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_reward.js,cronexpr="0 0-16/8 * * *",timeout=20,enable=true
 宠汪汪偷好友积分与狗粮 = type=cron,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_steal.js,cronexpr="0 0,6 * * *",timeout=20,enable=true
-京东种豆得豆 = type=cron,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_pet.js,cronexpr="1 7-21/2 * * *",timeout=20,enable=true
+京东种豆得豆 = type=cron,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_plantBean.js,cronexpr="1 7-21/2 * * *",timeout=20,enable=true
 京东天天加速 = type=cron,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_speed.js,cronexpr="8 */3 * * *",timeout=20,enable=true
 京东摇钱树 = type=cron,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_moneyTree.js,cronexpr="3 */2 * * *",timeout=20,enable=true
 取关京东店铺商品 = type=cron,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_unsubscribe.js,cronexpr="55 23 * * *",timeout=20,enable=true
