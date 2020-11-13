@@ -325,6 +325,9 @@ BoxJs = type=http-request,script-path=https://gitee.com/chavyleung/scripts/raw/m
 京东多合一签到 = type=cron,cronexpr="5 0 * * *",timeout=20,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, enable=true
 京豆变动通知 = type=cron,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_bean_change.js,cronexpr="2 9 * * *",timeout=440,enable=true
 京东抽奖机 = type=cron,script-path=https://raw.githubusercontent.com/xingliuchao/jd/main/jd_lotteryMachine.js,cronexpr="1 0 * * *",timeout=10,enable=true
+京东金融养猪 = type=cron,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_pigPet.js,cronexpr="12 * * * *",timeout=10,enable=true
+京东金融-天天提鹅 = type=cron,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_daily_egg.js,cronexpr="12 * * * *",timeout=10,enable=true
+京东戴尔新品 = type=cron,script-path=https://raw.githubusercontent.com/qqsdff/script/main/dell1106.js,cronexpr="0 */3 * * *",timeout=10,enable=true
 京东农场 = type=cron,script-path=https://raw.githubusercontent.com/XxxxHDxxxX/HD-/main/jd_fruit.js,cronexpr="5 6-18/6 * * *",timeout=20,enable=true
 京东萌宠 = type=cron,script-path=https://raw.githubusercontent.com/XxxxHDxxxX/HD-/main/jd_pat.js,cronexpr="5 6-18/6 * * *",timeout=20,enable=true
 京东宠汪汪 = type=cron,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy.js,cronexpr="15 */2 * * *",timeout=20,enable=true
@@ -342,6 +345,7 @@ BoxJs = type=http-request,script-path=https://gitee.com/chavyleung/scripts/raw/m
 京东全民开红包 = type=cron,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_redPacket.js,cronexpr="9 0 * * *",timeout=20,enable=true
 京东摇京豆 = type=cron,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_club_lottery.js,cronexpr="5 0 * * *",timeout=20,enable=true
 网易云获取Cookie = type=http-request,pattern=^https:\/\/music.163.com\/weapi\/user\/level,requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.cookie.js,script-update-interval=0
+机场签到(使用BoxJs配置订阅及密码) = type=cron,script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js,cronexpr="2 0 * * *",timeout=10,enable=true
 网易云签到 = type=cron,cronexpr="10 0 0 * * *",script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.js,enable=ture
 中国移动Cookie 1 = type=http-request,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10086/10086.cookie.js,pattern=^http:\/\/wx.10086.cn\/website\/taskCenter\/sign\?,max-size=131072,timeout=10,enable=true
 中国移动Cookie 2 = type=http-request,script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/10086/10086.cookie.js,pattern=http:\/\/wx.10086.cn\/website\/taskCenter\/index\?,max-size=131072,timeout=10,enable=true
