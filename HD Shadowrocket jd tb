@@ -325,9 +325,10 @@ BoxJs = type=http-request,script-path=https://gitee.com/chavyleung/scripts/raw/m
 京东多合一签到 = type=cron,cronexpr="5 0 * * *",timeout=20,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js, enable=true
 京豆变动通知 = type=cron,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_bean_change.js,cronexpr="2 9 * * *",timeout=440,enable=true
 京东抽奖机 = type=cron,script-path=https://raw.githubusercontent.com/xingliuchao/jd/main/jd_lotteryMachine.js,cronexpr="1 0 * * *",timeout=10,enable=true
+京东排行榜 = type=cron,script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_rankingList.js,cronexpr="1 0 * * *",timeout=10,enable=true
 京东金融养猪 = type=cron,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_pigPet.js,cronexpr="12 * * * *",timeout=10,enable=true
 京东金融-天天提鹅 = type=cron,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_daily_egg.js,cronexpr="12 * * * *",timeout=10,enable=true
-京东戴尔新品 = type=cron,script-path=https://raw.githubusercontent.com/qqsdff/script/main/dell1106.js,cronexpr="0 */3 * * *",timeout=10,enable=true
+京东特权值 = type=cron,script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/jdtqz.js,cronexpr="0 */3 * * *",timeout=10,enable=true
 京东农场 = type=cron,script-path=https://raw.githubusercontent.com/XxxxHDxxxX/HD-/main/jd_fruit.js,cronexpr="5 6-18/6 * * *",timeout=20,enable=true
 京东萌宠 = type=cron,script-path=https://raw.githubusercontent.com/XxxxHDxxxX/HD-/main/jd_pat.js,cronexpr="5 6-18/6 * * *",timeout=20,enable=true
 京东宠汪汪 = type=cron,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy.js,cronexpr="15 */2 * * *",timeout=20,enable=true
