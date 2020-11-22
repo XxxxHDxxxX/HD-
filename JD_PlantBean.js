@@ -36,7 +36,7 @@ let shareCodes = [ // IOS本地脚本用户这个列表填入你要助力的好�
                    //账号一的好友shareCode,不同好友的shareCode中间用@符号隔开
   'olmijoxgmjutzmppgksaa6f5qnjafs4jdeaykoy@olmijoxgmjutyqnef4t2gadmdhnwvtmtx2lkjey@cshk5bfjifz74k7moski4sdw256lueczox7ua5q@olmijoxgmjutzkqaoufk5nfylqnsluga6saa3my',
   //账号二的好友shareCode,不同好友的shareCode中间用@符号隔开
-  '4npkonnsy7xi3p6pjfxg6ct5gll42gmvnz7zgoy@6dygkptofggtp6ffhbowku3xgu@mlrdw3aw26j3wgzjipsxgonaoyr2evrdsifsziy',
+  '4npkonnsy7xi3p6pjfxg6ct5gll42gmvnz7zgoy@6dygkptofggtp6ffhbowku3xgu@mlrdw3aw26j3wgzjipsxgonaoyr2evrdsifsziy@igefhjvuw6xvt3zocl4fffqcmt6bjto5quk2x6y',
 ]
 let currentRoundId = null;//本期活动id
 let lastRoundId = null;//上期id
