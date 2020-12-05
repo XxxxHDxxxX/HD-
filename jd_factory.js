@@ -12,7 +12,7 @@ let cookiesArr = [],
     cookie = '',
     sharecodes = [
         'P04z54XCjVWnYaS5m9cZ2b83X5LwahbsGwgeWM', //账号 1
-        'P04z54XCjVWnYaS5m9cZ2Ws3y9DkgxpThAkWJY', //账号 2
+        'P04z54XCjVWnYaS5m9cZ2b83X5LwahbsGwgeWM', //账号 2
     ];
 if ($.isNode()) {
     Object.keys(jdCookieNode).forEach((item) => {
