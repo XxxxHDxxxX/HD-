@@ -361,6 +361,8 @@ BoxJs = type=http-request,script-path=https://gitee.com/chavyleung/scripts/raw/m
 京东快递签到 = type=cron,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_kd.js, cronexpr="10 0 * * *", timeout=200, enable=true
 金榜年终奖 = type=cron,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_split.js, cronexpr="10 0 * * *", timeout=200, enable=true
 十元街 = type=cron,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_syj.js, cronexpr="10 7 * * *", timeout=200, enable=true
+数码加购京豆 = type=cron,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_digital_floor.js, cronexpr="10 7 * * *", timeout=200, enable=true
+直播红包雨 = type=cron,script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_live_redrain.js, cronexpr="0 0,9,11,13,15,17,19,20,21,23 * * *", timeout=200, enable=true
 京东赚赚获取token = type=http-request,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jdzz.cookie.js,pattern=^https\:\/\/api\.m\.jd\.com\/client\.action\?functionId\=interactIndex,max-size=131072,timeout=10,enable=true
 京东赚赚 = type=cron,script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jdzz.js,cronexpr="0 9 * * *",timeout=10,enable=true
 机场签到(使用BoxJs配置订阅及密码) = type=cron,script-path=https://raw.githubusercontent.com/evilbutcher/Quantumult_X/master/check_in/glados/checkin_env.js,cronexpr="2 0 * * *",timeout=10,enable=true
